@@ -1,10 +1,5 @@
 /* CSS Document */
-/*
-html {
-	--app-primary-color:    #46a78e;
-    --app-accent-color:     #d13649;
-}
-*/
+
 p {
 	font-size: 16px;
 }
@@ -24,9 +19,9 @@ h3 {
 .primary-color {
 	color:  #46a78e !important;
 }
+
 .header-link {
 	color:  #46a78e !important;
-	
 }
 
 .header-logo {
@@ -38,30 +33,23 @@ h3 {
 	font-weight: bold;
 }
 
-.home-background-img {
-    width: 100vw;
-	min-resolution: 100vh;
-
-}
-
 .home-background-img-wrapper {
 	background-color: rgba(0, 0, 0, 0);
-    background-repeat: no-repeat;
-    background-image: url(http://www.abactherapeutics.com/wp-content/uploads/2014/03/s-home-1-desktop-blur-only-bg.jpg);
-    background-size: cover;
-    background-position: center center;
-    width: 100vw;
-    height: calc(100vh - 56px);
-    opacity: 1;
+  background-repeat: no-repeat;
+  background-image: url(http://www.abactherapeutics.com/wp-content/uploads/2014/03/s-home-1-desktop-blur-only-bg.jpg);
+  background-size: cover;
+  background-position: center center;
+  width: 100vw;
+  height: calc(100vh - 56px);
 	position: relative;
 }
 
 .home-logo-img {
 	position: absolute;
-    margin-left: auto;
-    margin-right: auto;
-    left: 0;
-    right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
 	top: 37%;
 	width: 75vw;
 	max-width: 700px;
@@ -71,7 +59,6 @@ h3 {
 	display: flex;
 	justify-content: center;
 	padding: 48px 16px;
-	
 }
 
 #heading-wrapper{
@@ -90,7 +77,6 @@ h3 {
 .home-icon {
 	position: absolute;
 	left: 0;
-	
 }
 
 .home-icon-p {
@@ -118,14 +104,12 @@ h3 {
 .virus-img {
 	max-width: 1000px;
 	width: calc(100% - 32px);
-	
 }
 
 .vision-section {
 	display: flex;
 	justify-content: center;
 	padding: 16px;
-	
 }
 
 .vision-wrapper {
@@ -136,11 +120,24 @@ h3 {
 	display: flex;
 	justify-content: center;
 	padding: 32px 0px;
-
 }
 
 .caption-img {
 	width: 100%;
+}
+
+.footer {
+	background-color: rgb(231, 231, 231);
+	padding: 24px
+}
+
+.footer-logo-img {
+	width: 210px;
+}
+
+.footer-grid {
+	display: flex;
+	justify-content: center;
 }
 
 @media only screen and (min-width: 700px) {
@@ -162,16 +159,4 @@ h3 {
 }
   
 
-.footer {
-	background-color: rgb(231, 231, 231);
-	padding: 24px
-}
 
-.footer-logo-img {
-	width: 210px;
-}
-
-.footer-grid {
-	display: flex;
-	justify-content: center;
-}
